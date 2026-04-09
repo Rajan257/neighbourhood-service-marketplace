@@ -1,6 +1,6 @@
 import { ReactNode } from "react";
 import Navbar from "./Navbar";
-import Footer from "./Footer";
+import Footer from "./footer";
 
 const Layout = ({ children }: { children: ReactNode }) => (
   <div className="min-h-screen flex flex-col">

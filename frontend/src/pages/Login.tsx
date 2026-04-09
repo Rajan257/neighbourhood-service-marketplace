@@ -24,8 +24,8 @@ const Login = () => {
     }
 
     const url = isSignup
-      ? "http://localhost:5000/api/auth/signup"
-      : "http://localhost:5000/api/auth/login";
+      ? `${import.meta.env.VITE_API_URL}/api/auth/signup`
+      : `${import.meta.env.VITE_API_URL}/api/auth/login`;
 
     try {
 
